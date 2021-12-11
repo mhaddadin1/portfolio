@@ -1,0 +1,111 @@
+.bgc-b {
+  background-color: black;
+}
+
+.bgc-g {
+  background-color: grey;
+}
+
+.b-r {
+  border-radius: 10px;
+}
+
+.c-g {
+  color: grey;
+}
+
+.c-w {
+  color: white;
+}
+
+.d-f {
+  display: flex;
+}
+
+.f-2 {
+  font-size: 2em;
+}
+
+.f-5 {
+  font-size: 5em;
+}
+
+.f-r {
+  float: right;
+}
+.f-st {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fxd-c {
+  flex-direction: column;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ln {
+  list-style-type: none;
+}
+
+.m-w {
+  max-width: 75px;
+}
+
+.m-w1 {
+  max-width: 100px;
+}
+
+.m-w2 {
+  max-width: 150px;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.p1 {
+  padding: 1.5rem;
+}
+
+.p20 {
+  padding: 20px;
+}
+.ta-c {
+  text-align: center;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.t-d {
+  text-decoration: none;
+}
+/* media query */
+@media (min-width: 768px) {
+  .d-f\@lrg {
+    display: flex;
+  }
+
+  .fg-1\@lrg {
+    flex-grow: 1;
+  }
+
+  .fg-3\@lrg {
+    flex-grow: 3;
+  }
+
+  .ml\@lrg {
+    margin-left: 1.5rem;
+  }
+}
