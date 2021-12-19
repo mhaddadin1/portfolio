@@ -32,6 +32,9 @@
   );
 }
 
+.bgc-t {
+  background: #55d6aa;
+}
 .brd-2 {
   border: 1px solid white;
 }
@@ -48,10 +51,6 @@
   border-radius: 10px;
 }
 
-.c-g {
-  color: rgb(41, 103, 161);
-}
-
 .c-w {
   color: white;
 }
@@ -62,6 +61,10 @@
 
 .d-i {
   display: inline;
+}
+
+.d-ib {
+  display: inline-block;
 }
 
 .f-1 {
@@ -155,6 +158,10 @@
   position: absolute;
 }
 
+p-l {
+  padding-left: 11px;
+}
+
 .p-r {
   position: relative;
 }
@@ -216,6 +223,9 @@
   top: 35rem;
 }
 
+.w-200 {
+  width: 200px;
+}
 .w-10 {
   width: 5em;
 }
