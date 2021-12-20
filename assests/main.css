@@ -1,11 +1,4 @@
 /* variables */
-:root {
-  --black: #000;
-  --font-unit-large: 2rem;
-  --green: green;
-  --space-unit: 1.5rem;
-  --spacing-unit-small: 0.75rem;
-}
 
 .ac1 {
   align-items: right;
