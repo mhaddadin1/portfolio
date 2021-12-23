@@ -190,12 +190,14 @@ p-l {
 }
 
 /* media query */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .d-f\@lrg {
     display: flex;
   }
 
-  .ml\@lrg {
-    margin-left: 1.5rem;
+  @media screen and (max-width: 480px) {
+    .ml\@lrg {
+      flex-wrap: wrap;
+    }
   }
 }
