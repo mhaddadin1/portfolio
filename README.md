@@ -4,11 +4,11 @@
 
 ## Description
 
-My Portfolio website has my name, a recent photo, and has links at the footer on how to reach me through linkedin or view my github. When you click on my image of my project it takes you to the webpage.
+My Portfolio website has my name, a photo, and has links at the footer on how to reach me through LinkedIn or view my Github. When you click on my Project image it takes you to the webpage.
 
 ## Screenshot of portfolio
 
-!(./assests/portfolio screen cap.png)
+!(./assests/images/portfolio screen cap.png)
 
 ## Links to Application
 

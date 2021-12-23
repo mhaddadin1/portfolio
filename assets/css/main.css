@@ -8,14 +8,6 @@
   align-items: center;
 }
 
-.bgc-b {
-  background-color: rgb(6, 44, 114);
-}
-
-.bgc-g {
-  background-color: rgb(11, 5, 90);
-}
-
 .bgc-t {
   background: #55d6aa;
 }
@@ -25,10 +17,6 @@
 
 .brdr {
   border-radius: var(--spacing-unit-small);
-}
-
-.bxs-1 {
-  box-shadow: rgb(81, 113, 201) inset 0px 0px 24px;
 }
 
 .b-r {
@@ -102,12 +90,16 @@
   left: 50%;
 }
 
+.m-h {
+  max-height: 150px;
+}
+
 .m-t {
   margin-top: 1em;
 }
 
 .m-w {
-  max-width: 75px;
+  max-width: 150px;
 }
 
 .m-w1 {
