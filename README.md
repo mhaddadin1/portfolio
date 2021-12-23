@@ -8,7 +8,7 @@ My Portfolio website has my name, a recent photo, and has links at the footer on
 
 ## Screenshot of portfolio
 
-(./assests/portfolio screen cap.png)
+!(./assests/portfolio screen cap.png)
 
 ## Links to Application
 
