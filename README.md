@@ -8,7 +8,7 @@ My Portfolio website has my name, a photo, and has links at the footer on how to
 
 ## Screenshot of portfolio
 
-! [screen cap for my portfolio.](./assets/images/portfolio screen cap.png)
+![screen cap for my portfolio.](./assets/images/portfolio screen cap.png)
 
 ## Links to Application
 
