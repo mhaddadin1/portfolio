@@ -11,104 +11,110 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
-<body class="bgc-g d-f f-st f-w fxd-c">
-    <header class="d-ib">
-        <div>
-            <img class="f-l w-200"
-                src="https://t3.ftcdn.net/jpg/04/00/47/88/360_F_400478854_eAL87XQTJyakxh1XSadIxSojtBjm7z8b.jpg"
-                alt="m logo">
-        </div>
-        <nav>
-            <ul class="d-f f-r ln">
-                <li class="p1"> <a class="c-b t-d" href="#Aboutme">About Me</a></li>
-                <li class="p1"> <a class="c-b t-d" href="#MyProjects">Projects</a></li>
-                <li class="p1"> <a class="c-b t-d" href="#mylanguages">Languages</a></li>
-                <li class="p1"> <a class="c-b t-d" href="#Contactme">Contact Me</a></li>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="" href="#Aboutme">About Me</a>
+        <a class="" href="#MyProjects">Projects</a>
+        <a class="" href="#mylanguages">Languages</a>
+        <a class="" href="#Contactme">Contact Me</a>
+
+    </div>
+
+
+
+
+    <div id="main">
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <section id="Aboutme" class="brd-2 border-0 d-f f-2 m-t p1">
+
+            <div class="ta-c">
+                <img class="brd-2 w-10" src="./assets/images/Coco.png" alt="picture of me">
+                <p class="m-l m0"> Hi, I'm Mousa Haddadin. Motivated Junior Developer with strong educational and
+                    practical backgrounds focused on web development. Highly effective at optimizing user experiences
+                    and
+                    improving site functionality by utilizing advanced abilities in HTML, CSS and JavaScript.
+                    Resourceful
+                    and industrious professional with an analytical and detail-oriented mindset looking to improve data
+                    retrieval and workflow efficiencies. </p>
+            </div>
+        </section>
+
+
+        <section id="MyProjects" class="d-f m-t p1 ta-c">
+            <h2>My Work</h2>
+            <div class="row">
+                <div class="card-deck container p1">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/images/projectPage.png" class="border-0 card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nba web app</h5>
+                            <p class="card-text">Best Shot is an NBA search database application used to search
+                                individual
+                                player
+                                stats,
+                                as well as current team game stats.</p>
+                            <a href="https://thundercats-4ever.github.io/project/" class="btn btn-primary">Click here to
+                                visit
+                                my app</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="card-deck container p1">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="assets/images/weatherdashboard.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">This web app is a weather dashboard that will display the current
+                                weather
+                                conditions in that city, including temperature, humidity, UV index (with colors that
+                                indicate
+                                the
+                                conditions to be favorable, moderate, or severe), and a picture representing whether it
+                                is
+                                clear,
+                                cloudy, raining, etc.</p>
+                            <a href="https://mhaddadin1.github.io/hw6/" class="btn btn-primary">Click here to visit my
+                                app</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="card-deck container p1">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="./assets/images/workdayscheduler.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Work day scheduler</h5>
+                            <p class="card-text">This web app is a easy to use workday scheduler that will allow users
+                                to
+                                add
+                                their tasks for the workday by hour. </p>
+                            <a href="https://mhaddadin1.github.io/hw5/" class="btn btn-primary">Click here to visit my
+                                app</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="mylanguages" class=" d-f f-2 m-t p1">
+            <p class="d-f p1">My Languages
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
             </ul>
-
-        </nav>
-
-    </header>
+            </p>
+        </section>
 
 
-    <section id="Aboutme" class="brd-2 border-0 d-f f-2 m-t p1">
-
-        <div class="ta-c">
-            <img class="brd-2 w-10" src="./assets/images/Coco.png" alt="picture of me">
-            <p class="m-l m0"> Hi, I'm Mousa Haddadin. Motivated Junior Developer with strong educational and
-                practical backgrounds focused on web development. Highly effective at optimizing user experiences and
-                improving site functionality by utilizing advanced abilities in HTML, CSS and JavaScript. Resourceful
-                and industrious professional with an analytical and detail-oriented mindset looking to improve data
-                retrieval and workflow efficiencies. </p>
-        </div>
-    </section>
-
-
-    <section id="MyProjects" class="d-f m-t p1 ta-c">
-        <h2>My Work</h2>
-        <div class="row">
-            <div class="card-deck container p1">
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="assets/images/projectPage.png" class="border-0 card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Nba web app</h5>
-                        <p class="card-text">Best Shot is an NBA search database application used to search individual
-                            player
-                            stats,
-                            as well as current team game stats.</p>
-                        <a href="https://thundercats-4ever.github.io/project/" class="btn btn-primary">Click here to
-                            visit
-                            my app</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row ">
-            <div class="card-deck container p1">
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="assets/images/weatherdashboard.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Weather Dashboard</h5>
-                        <p class="card-text">This web app is a weather dashboard that will display the current weather
-                            conditions in that city, including temperature, humidity, UV index (with colors that
-                            indicate
-                            the
-                            conditions to be favorable, moderate, or severe), and a picture representing whether it is
-                            clear,
-                            cloudy, raining, etc.</p>
-                        <a href="https://mhaddadin1.github.io/hw6/" class="btn btn-primary">Click here to visit my
-                            app</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="card-deck container p1">
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="./assets/images/workdayscheduler.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Work day scheduler</h5>
-                        <p class="card-text">This web app is a easy to use workday scheduler that will allow users to
-                            add
-                            their tasks for the workday by hour. </p>
-                        <a href="https://mhaddadin1.github.io/hw5/" class="btn btn-primary">Click here to visit my
-                            app</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section id="mylanguages" class=" d-f f-2 m-t p1">
-        <p class="d-f p1">My Languages
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-        </ul>
-        </p>
-    </section>
+    </div>
 
 
 
@@ -126,5 +132,7 @@
     <p>Mousa Haddadin</p>
 
 </footer>
+
+<script src="./assets/js/script.js"></script>
 
 </html>
