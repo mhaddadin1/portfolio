@@ -1,4 +1,48 @@
 /* variables */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #111;
+  color: white;
+}
+
+.fa-github {
+  background: #111;
+  color: white;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url(../images/chicago.webp);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contrast {
+}
+
+.center {
+  max-width: max-content;
+  margin: auto;
+}
 
 .ac1 {
   align-items: right;
@@ -9,13 +53,14 @@
 }
 
 .bgc-g {
-  background-color: grey;
+  background-color: rgb(100, 91, 91);
 }
 .bgc-t {
-  background: #18429e;
+  background: #111;
 }
-.brd-2 {
-  border: 1px solid white;
+
+.bgc-tr {
+  background-color: transparent;
 }
 
 .brdr {
@@ -24,6 +69,11 @@
 
 .b-r {
   border-radius: 10px;
+}
+
+.btn-color {
+  background-color: rgb(100, 91, 91);
+  color: white;
 }
 
 .c-b {
@@ -54,6 +104,22 @@
   font-size: 1em;
 }
 
+.f-5 {
+  font-size: 25px;
+}
+
+.f-4 {
+  font-size: 20px;
+}
+
+.f-wt {
+  font-weight: 500;
+}
+
+.f-c {
+  color: white;
+}
+
 .f-d {
   flex-direction: column;
 }
@@ -63,10 +129,6 @@
 }
 .f-r {
   float: right;
-}
-.f-st {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .fx-1 {
@@ -94,6 +156,10 @@
 
 .l-50 {
   left: 50%;
+}
+
+.m-a {
+  margin: auto;
 }
 
 .m-h {
@@ -136,7 +202,7 @@
   position: absolute;
 }
 
-p-l {
+.p-l {
   padding-left: 11px;
 }
 
@@ -161,7 +227,7 @@ p-l {
 }
 
 .ta-c {
-  text-align: center;
+  text-align: center !important;
 }
 
 .ta-r {
@@ -170,6 +236,10 @@ p-l {
 
 .t-d {
   text-decoration: none;
+}
+
+.t-s {
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
 }
 
 .t-1 {
@@ -187,8 +257,7 @@ p-l {
   width: 10em;
 }
 
-/* media query */
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .d-f\@lrg {
     display: flex;
   }
@@ -198,7 +267,7 @@ p-l {
       flex-wrap: wrap;
     }
   }
-} */
+}
 .sidenav {
   height: 100%;
   width: 0;
