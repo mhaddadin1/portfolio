@@ -36,7 +36,13 @@ body {
   background-repeat: no-repeat;
 }
 
-.contrast {
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  background: #f0f0f0;
+  width: 100%;
+  color: black;
 }
 
 .center {
